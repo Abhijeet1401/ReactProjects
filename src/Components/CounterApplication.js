@@ -103,7 +103,6 @@ const CounterApplication = () => {
     </div>
   );
 };
-
 export default CounterApplication;
 const styles = {
   container: {
