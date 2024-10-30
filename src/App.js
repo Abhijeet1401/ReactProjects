@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavbarExample from "./Components/NavbarExample";
+import { BootstrapComponentDemo } from "./Components/BootstrapComponentDemo";
+import ShowHideText from "./Components/ShowHideText";
+import PasswordStrengthChecker from "./Components/PasswordStrengthChecker";
+import ThemeModeChange from "./Components/ThemeModeChange";
+import FormValidation from "./Components/FormValidation";
+import CheckEvenOdd from "./Components/CheckEvenOdd";
+import AgeVerification from "./Components/AgeVerification";
+import ShowHidePasword from "./Components/ShowHidePasword";
+import QuizApp from "./Components/QuizApp";
+import AdminAccessControl from "./Components/AdminAccessControl";
+import CounterApplication from "./Components/CounterApplication";
+import PalindromeChecker from "./Components/PalindromeChecker";
+import Countdown from "./Components/Countdown";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <BootstrapComponentDemo /> */}
+      {/* <ShowHideText /> */}
+      {/* <PasswordStrengthChecker /> */}
+      {/* <ThemeModeChange /> */}
+      {/* <FormValidation /> */}
+      {/* <CheckEvenOdd /> */}
+      {/* <AgeVerification /> */}
+      {/* <ShowHidePasword /> */}
+      {/* <QuizApp /> */}
+      {/* <AdminAccessControl /> */}
+      {/* <CounterApplication /> */}
+      {/* <PalindromeChecker /> */}
+      <Countdown />
     </div>
   );
-}
+};
 
 export default App;
