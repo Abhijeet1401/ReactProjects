@@ -36,7 +36,6 @@ const PalindromeChecker = () => {
       }
       setCharCount(countChar);
     }
-    console.log("Number of char", countChar);
 
     // const vowelCheck = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
     for (let i = 0; i < input.length; i++) {
