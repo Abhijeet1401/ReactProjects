@@ -5,7 +5,6 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 const ShowHideText = () => {
   const [isShowing, isSetShowing] = useState(false);
-
   return (
     <div>
       {isShowing ? <h2>i am Abhijeet Kumar</h2> : <></>}

@@ -49,7 +49,6 @@ const PalindromeChecker = () => {
     setVowelCount(vowelcount);
     // console.log(vowelcount);
   };
-
   const handleCheck = () => {
     let reversed = "";
     //  let count = 0;

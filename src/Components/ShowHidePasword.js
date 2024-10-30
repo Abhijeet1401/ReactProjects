@@ -12,10 +12,6 @@ const ShowHidePasword = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("");
 
-  // const handleSubmit = () => {
-
-  // };
-
   return (
     <div>
       <h1>Show/Hide Password</h1>

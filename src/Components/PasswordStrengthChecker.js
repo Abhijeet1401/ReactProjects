@@ -19,14 +19,7 @@ const PasswordStrengthChecker = () => {
       setShowMsg(false);
     }
   };
-  // const handleChangeInput = (e) => {
-  //   setInputPassword(e.target.value);
-  //   if (inputPassword.length < 6) {
-  //     setShowMsg(true);
-  //   } else {
-  //     setShowMsg(false);
-  //   }
-  // };
+
   return (
     <div>
       <h1>PasswordStrengthChecker</h1>

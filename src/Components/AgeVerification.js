@@ -59,7 +59,6 @@ const AgeVerification = () => {
           Toggle
         </Button>
       </div>
-
       {showContent ? (
         <div>
           Eligibility to Vote: To be eligible to vote in India, a person must be

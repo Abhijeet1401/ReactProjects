@@ -25,7 +25,6 @@ const CheckEvenOdd = () => {
       setIsEvenOdd(false);
     }
   };
-
   return (
     <div>
       <h4>CheckEvenOdd</h4>

@@ -23,7 +23,6 @@ const FormValidation = () => {
       setIsValid(false);
     }
   };
-
   const handleSubmit = () => {
     console.log("submitted");
   };
