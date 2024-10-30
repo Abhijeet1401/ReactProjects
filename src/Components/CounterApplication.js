@@ -43,7 +43,7 @@ const CounterApplication = () => {
             }}
           >
             <p style={{ fontWeight: "bold", fontSize: 30 }}>
-              Your count starts
+              Your count starts now
             </p>
             <h1
               style={{
@@ -90,7 +90,6 @@ const CounterApplication = () => {
           <button
             style={{
               height: "35px",
-
               borderRadius: "6px",
               backgroundColor: "#64b5f6",
             }}
