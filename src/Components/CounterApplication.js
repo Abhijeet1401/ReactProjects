@@ -42,7 +42,7 @@ const CounterApplication = () => {
               flexDirection: "column",
             }}
           >
-            <p style={{ fontWeight: "bold", fontSize: 30 }}>
+            <p style={{ fontWeight: "bold", fontSize: 40 }}>
               Your count starts now
             </p>
             <h1
